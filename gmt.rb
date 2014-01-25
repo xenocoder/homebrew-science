@@ -2,15 +2,15 @@ require 'formula'
 
 class Gmt < Formula
   homepage 'http://gmt.soest.hawaii.edu/'
-  url 'ftp://ftp.soest.hawaii.edu/gmt/gmt-4.5.9.tar.bz2'
-  sha1 '711922fd99dcd47ace522f1e46fcafa5beab8c94'
+  url 'ftp://ftp.soest.hawaii.edu/gmt/gmt-4.5.11-src.tar.bz2'
+  sha1 '9f226fdb498a6868da98a6014517aa9537542f03'
 
   depends_on 'gdal'
   depends_on 'netcdf'
 
   resource 'gshhg' do
-    url 'ftp://ftp.soest.hawaii.edu/gmt/gshhg-gmt-nc4-2.2.2.tar.gz'
-    sha1 'f01c322ad1767abf99818c250b1a58b3e2c12e1c'
+    url 'ftp://ftp.soest.hawaii.edu/gmt/gshhg-gmt-nc4-2.2.4.tar.gz'
+    sha1 'cf253ecf3ad32ee37c33bc60c4598a27e3ec4436'
   end
 
   def install
